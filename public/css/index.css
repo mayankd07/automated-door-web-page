@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 33%;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 50px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    background-color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.103);
+} 
+.center
+{
+    text-align: center;
+} 
+    
+
+
+.nav-list{
+    width: 56%;
+    /* background-color: burlywood; */
+    display: flex;
+    align-items: center;
+
+}
+.nav-list li{
+    padding: 26px 30px;
+    list-style: none;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: black;
+    transition-property: all;
+    transition-duration: 100ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1ms;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+.nav-list li a:hover{
+    background: rgb(0, 0, 0);
+    /* border: 3px solid white; */
+    border-radius: 20px;
+    color: white;
+    padding: 10px 0px;
+}
+.rightNav{
+    /* background-color: cadetblue; */
+    width: 66%;
+    text-align: right;
+    padding: 0px 23px;
+    color: black;
+}
+#label
+{
+    font-weight: bold;
+    
+}
+#username
+{
+    padding: 5px;
+    font-size: 15px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+#password
+{
+    padding: 5px;
+    font-size: 15px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    
+    background: none;
+}
+.btn-signin
+{
+    color: black ;
+    font-family: 'Ubuntu', sans-serif;
+    border: black 2px solid !important;
+    background: none;
+    font-weight: 600;
+    border-radius: 10px;
+    transition-duration: 100ms;
+    transition-property: all;
+    transition-delay: 70ms;
+    transition-timing-function: ease-out;
+}
+.btn-signin:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.background{
+    background: rgba(0,0, 0, 0.7) url('../images/architecture-5084075_1920.jpg') no-repeat;
+    background-size: 100%;
+    
+    background-blend-mode:darken ;
+
+}
+
+
+.firstSection{
+    height: 80vh;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    max-width: 61%;
+    margin: auto;
+    height: 65%;
+    text-align: center;
+}
+.box-main-btn
+{
+    text-decoration: none;
+    color: white;
+}
+
+.firstHalf{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.secondHalf{
+    width: 30%;
+}
+.secondHalf img{
+    width: 70%;
+    /* padding: 4px 0px; */
+    border: 2px solid white;
+    border-radius: 50px;
+    display: block;
+    margin: auto;
+}
+
+.text-big{
+    font-size: 40px;
+}
+.text-small{
+    font-size: 20px;
+    margin: 10px;
+}
+
+
+
+.btn{
+    padding: 8px 15px;
+    margin: 7px 3px;
+    border: 2px solid white ;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    transition-duration: 100ms;
+    transition-property: all;
+    transition-delay: 50ms;
+    transition-timing-function: ease-out;
+    
+}
+.btn:hover{
+    background: rgb(0, 0, 0);
+   
+    
+}
+
+
+.btn-sm{
+    padding: 3px 10px;
+    vertical-align: middle;
+
+}
+
+.left{
+    flex-direction: row-reverse;
+
+}
+.heading
+{
+    display: block;
+}
+.products
+{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    margin: 30px 10px;
+}
+.items
+{
+    display: block;
+    margin: 37px 105px;
+    max-width: fit-content;
+    background-color: lightgray;
+    border-radius: 10px;
+    
+
+    transition-duration: 100ms;
+    transition-property: all;
+    transition-delay: 50ms;
+    transition-timing-function: ease-out;
+
+    
+    
+}
+.items:hover{
+    box-shadow: 7px 7px 6px 7px gray;
+}
+.item-img
+{
+    max-width:100%;
+    /* border: 2px solid red; */
+    
+}
+.background2
+{
+    background-color: rgb(247, 246, 243);
+}
+.contact{
+    
+    height: 86vh;
+    
+}
+.text-center{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    padding-top: 47px;
+    font-family: 'Goblin One', cursive;
+
+}
+.form{
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.form-input{
+    width: 100%;
+    margin: 27px 0px;
+    font-size: 16px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 5px 3px;
+
+
+}
+.btnContact{
+    width: 90px;
+    color: black;
+    border: 2px solid black;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.btnContact:hover
+{
+    color: white;
+background: black;
+font-weight: bolder;
+}
+
+
+.footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+
+}
+.line{
+    width: 33px;
+    background-color: rgb(0, 0, 0);
+    height: 4px;
+    margin: 5px 3px;
+}
+
+
+
+

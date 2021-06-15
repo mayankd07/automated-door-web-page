@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/responsive.css">
+    
+    
+    <title>Jheeltech</title>
+  </head>
+  <body>
+    
+    <nav class="navbar   height-nav-resp">
+      <ul class="nav-list visibility-class-resp">
+        <div class="logo"><img src="images/logo1.png" alt="Logo" /></div>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+      <div class="rightNav visibility-class-resp" >
+        <form action="/register" method="POST">
+        <label for="username" id="label">username</label>
+        <input type="text" name="username" id="username" />
+        <label for="password" id="label">Password</label>
+        <input type="password" name="password" id="password">
+        <button class=" btn-sm btn-signin">Sign In</button>
+      </form> 
+      </div>
+      <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </nav>
+
+    <section class=" firstSection background" id="home" >
+      <div class="box-main">
+        <div class="firstHalf" >
+          <p class="text-big" >The Future of Automated doors is here</p>
+          <p class="text-small">
+            We are delighted to provide you best solutions for automated doors and windows. We have been serving since 1988 and have gained the expertise in providing best class solutions to our clients.
+          </p>
+          <div class="buttons">
+              <button class="btn sup"> <a class="box-main-btn" href="#products">Explore Products</a> </button>
+              <button class="btn"> <a class="box-main-btn" href="#contact">Contact Us Now</a> </button>
+          </div>
+        </div>
+        <div class="secondHalf">
+            <img src="/images/dr.jpg" alt="Image" >
+        </div>
+      </div>
+    </section>
+ 
+    <div class="heading">
+    <h1 class="center text-big prod-heading">Our Products</h1>
+  </div>
+  <div class="products center" id="products">
+    <div class="items " id="item-1">
+      <img src="images/item1.jpg" class="item-img" alt="Product-1">
+      <h3>ECLISSE</h3>
+      <p>Price: Starts from Rs. 20000</p>
+    </div>
+    <div class="items" id="item-2">
+      <img src="images/item2.jpg" class="item-img" alt="Product-2">
+      <h4>HÖRMANN ITALIA</h4>
+      <p>Price: Starts from Rs. 30000</p>
+    </div>
+    <div class="items" id="item-3">
+      <img src="images/item3.jpg" class="item-img" alt="Product-3">
+      <h3>FAAC</h3>
+      <p>Price: Starts from Rs. 20000</p>
+    </div>
+    <div class="items" id="item-4">
+      <img src="images/item4.jpg" class="item-img" alt="Product-4">
+      <h3>Kopron®</h3>
+      <p>Price: Starts from Rs. 40000</p>
+    </div>
+    <div class="items" id="item-5">
+      <img src="images/item5.jpg" class="item-img" alt="Product-5">
+      <h3>GEZE</h3>
+      <p>Price: Starts from Rs. 10000</p>
+    </div>
+    <div class="items" id="item-6">
+      <img src="images/item6.jpg" class="item-img" alt="Product-6">
+      <h3>ISEO Serrature</h3>
+      <p>Price: Starts from Rs. 50000</p>
+    </div>
+    <div class="items" id="item-7">
+      <img src="images/item7.jpg" class="item-img" alt="Product-7">
+      <h3>TOPP</h3>
+      <p>Price: Starts from Rs. 20000</p>
+    </div>
+    <div class="items" id="item-8">
+      <img src="images/item8.jpg" class="item-img" alt="Product-8">
+      <h3>Schüco</h3>
+      <p>Price: Starts from Rs. 30000</p>
+    </div>
+    <div class="items" id="item-9">
+      <img src="images/item9.jpg" class="item-img" alt="Product-9">
+      <h3>Metalglass Bonami</h3>
+      <p>Price: Starts from Rs. 35000</p>
+    </div>
+    <div class="items" id="item-10">
+      <img src="images/item10.jpg" class="item-img" alt="Product-9">
+      <h3>SERGE FERRARI</h3>
+      <p>Price: Starts from Rs. 30000</p>
+    </div>
+    <div class="items" id="item-11">
+      <img src="images/item11.jpg" class="item-img" alt="Product-9">
+      <h3>i-Mesh</h3>
+      <p>Price: Starts from Rs. 12000</p>
+    </div>
+    <div class="items" id="item-12">
+      <img src="images/item12.jpg" class="item-img" alt="Product-9">
+      <h3>Mottura</h3>
+      <p>Price: Starts from Rs. 18000</p>
+    </div>
+  </div>
+  <section class="contact background2 " id="contact">
+    <h2 class="text-center">Contact Us</h2>
+    <div class="form">
+        <input type="text" class="form-input" name="name" id="name" placeholder="Enter your name">
+        <input type="email" class="form-input" name="email" id="email" placeholder="Enter your Email">
+        <input type="phone" class="form-input" name="phone" id="phone" placeholder="Enter your phone">
+        <textarea name="text" class="form-input" id="textarea" cols="30" rows="5" placeholder="We are happy to hear from you"></textarea>
+        <button class="btn btnContact">Submit</button>
+    </div>
+</section>
+
+    <footer>
+      <p class="footer">
+      Copyright &copy; 2021 www.Jheeltech.com - All rights reserved
+    </p>
+    </footer>
+    <script src="js/resp.js"></script>
+    
+  </body>
+</html>

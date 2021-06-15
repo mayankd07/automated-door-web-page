@@ -1,0 +1,102 @@
+@media only screen and (max-width:1491px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        height: 478px;
+        transition: all 0.7s ;
+    }
+    .rightNav{
+        text-align: center;
+    }
+    #search{
+        width: 100%;
+    }
+    .burger{
+        display: block;
+    }
+    .height-nav-resp{
+        height: 72px;
+    }
+    .visibility-class-resp{
+        opacity: 0;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+        padding-top: 53px;
+    }
+    .section{
+        flex-direction: column-reverse;
+    }
+    .background{
+        background: rgba(0,0, 0, 0.7) url('../images/architecture-5084075_1920.jpg') no-repeat ;
+        background-size: 120%;
+        background-blend-mode:darken ;
+    
+    }
+    .sectionTag{
+        text-align: center;
+    }
+    .paras {
+        padding: 0px 0px;
+    } 
+}
+@media only screen and (max-width:1096px)
+{
+.products
+{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 10px;
+}
+.rightNav
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 33%;
+}
+.btn-signin
+{
+    max-width: 60%;
+    margin-top: 10px;
+    
+}
+.background{
+    background: rgba(0,0, 0, 0.7) url('../images/bga.jpg') no-repeat ;
+    background-size: 280%;
+    background-blend-mode:darken ;
+
+}
+.nav-list{
+    flex-direction: column;
+    margin-top: 20px;
+}
+.box-main{
+    flex-direction: column-reverse;
+    max-width: 100%;
+    height: 75%;
+    padding-top: 53px;
+}
+.footer
+{
+    height: fit-content;
+}
+.form
+{
+    max-width: 80%;
+}
+
+
+}
+@media only screen and (max-width:496px)
+{
+  .items
+  {
+      margin :37px 18px;
+  }  
+}
+
